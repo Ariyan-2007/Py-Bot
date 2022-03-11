@@ -1,0 +1,74 @@
+Ryangotcancer[22:44] - Hello
+Hello
+Hello
+Hi
+Bye
+Hey
+Bye
+Hey
+Hoho
+Hello Ariyan
+Ryangotcancer[22:44] - My name is ariyan jahangir and I am from bangladesh. Hello World
+Tajwar[00:00] - Elon musk failed in class 10
+Tajwar[00:01] - From an trustful source
+Ryangotcancer[00:16] - Sdjkpadksadokaspdsakdsapo as[pdksaopdksaopdk
+Ryangotcancer[00:16] - !help
+Ryangotcancer[00:16] - !reader
+Py Bot[00:16] - Read Mode Turned On
+Ryangotcancer[00:17] - Beloved Bangladesh
+Ryangotcancer[00:17] - !reader
+Py Bot[00:17] - Read Mode Turned Off
+Ryangotcancer[00:18] - plot_test 2 5 6
+Ryangotcancer[00:18] - !plot_test 2 5 6
+Ryangotcancer[00:18] - !plot_test 2 5 6
+Py Bot[00:18] - 
+Ryangotcancer[00:19] - !plot_test 10 20 30
+Py Bot[00:19] - 
+Tajwar[00:20] - !plot_test 1 1 1
+Py Bot[00:20] - 
+Ryangotcancer[00:20] - !plot_test 1 0 1
+Py Bot[00:20] - 
+Tajwar[00:20] - !plot_test faisal bhai er business
+Py Bot[00:20] - 
+Ryangotcancer[00:21] - !plot_test Dada aar Akhi
+Py Bot[00:21] - 
+Ryangotcancer[00:23] - !plot_test Rahik Lily Tajwar Storm
+Py Bot[00:23] - 
+Ryangotcancer[00:24] - !plot_test 30 20 45 60
+Py Bot[00:24] - 
+Ryangotcancer[00:27] - !plot_test
+Py Bot[00:27] - 
+Ryangotcancer[00:28] - !plot_test
+Py Bot[00:28] - 
+Ryangotcancer[00:33] - !plot_test
+Py Bot[00:33] - 
+Ryangotcancer[00:34] - !plot_test
+Py Bot[00:34] - 
+Ryangotcancer[00:35] - !plot_test
+Py Bot[00:35] - 
+Ryangotcancer[00:36] - !plot_test
+Py Bot[00:36] - 
+Ryangotcancer[00:36] - !plot_test
+Py Bot[00:36] - 
+Ryangotcancer[00:37] - !plot_test
+Py Bot[00:37] - 
+Ryangotcancer[00:38] - !plot_test
+Py Bot[00:38] - 
+Ryangotcancer[00:39] - !reader
+Py Bot[00:39] - Read Mode Turned On
+Ryangotcancer[00:39] - Giving up on my dreams
+Ryangotcancer[00:39] - everyone is dead
+Ryangotcancer[00:39] - Given And Denied
+Ryangotcancer[00:39] - Road Kill
+Ryangotcancer[00:39] - !reader
+Py Bot[00:39] - Read Mode Turned Off
+Ryangotcancer[00:39] - !plot_test
+Py Bot[00:39] - 
+Ryangotcancer[00:51] - !plot words.csv
+Py Bot[00:51] - 
+Ryangotcancer[01:03] - !wordPlot
+Ryangotcancer[01:03] - !help
+Ryangotcancer[01:03] - !plotWords
+Py Bot[01:03] - 
+Ryangotcancer[01:03] - !plotWords
+Py Bot[01:03] - 
