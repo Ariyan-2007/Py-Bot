@@ -165,3 +165,133 @@ Ryangotcancer[17:05] - !applyRegression
 Py Bot[17:05] - Regression Applied
 Ryangotcancer[17:05] - !showGraph
 Py Bot[17:05] - 
+Ryangotcancer[17:11] - !help
+Ryangotcancer[17:11] - !reader
+Py Bot[17:11] - Read Mode Turned On
+Ryangotcancer[17:11] - Hello
+Ryangotcancer[17:11] - Hey
+Ryangotcancer[17:11] - Hi
+Ryangotcancer[17:12] - Zafrin
+Ryangotcancer[17:12] - Nahin
+Ryangotcancer[17:12] - Ariyan
+Ryangotcancer[17:12] - Abir
+Ryangotcancer[17:12] - Abir
+Ryangotcancer[17:12] - Zafrin
+Ryangotcancer[17:12] - Nahin
+Ryangotcancer[17:13] - !wordGraph
+Py Bot[17:13] - 
+Ryangotcancer[17:13] - How Are You
+Ryangotcancer[17:13] - I am fine
+Ryangotcancer[17:13] - I am doing fine
+Ryangotcancer[17:13] - What about you
+Ryangotcancer[17:13] - how are you
+Ryangotcancer[17:13] - where are you
+Ryangotcancer[17:14] - where is nahin
+Ryangotcancer[17:14] - !help
+Ryangotcancer[17:14] - !chat
+Py Bot[17:14] - Chat Mode Turned On
+Ryangotcancer[17:14] - hello
+Ryangotcancer[17:14] - Hi
+Ryangotcancer[17:14] - !chat
+Ryangotcancer[17:15] - !chat
+Py Bot[17:15] - Chat Mode Turned Off
+Ryangotcancer[17:16] - Py Bot is a bot designed to use the numpy and pandas library of python to show graphs and apply regression and we hope to make it able to process machine learning classifiers in the future
+Ryangotcancer[17:17] - !wordGraph
+Py Bot[17:17] - 
+Ryangotcancer[17:21] - !wordGraph
+Ryangotcancer[17:23] - !wordGraph
+Ryangotcancer[17:29] - !wordGraph
+Ryangotcancer[17:31] - !wordGraph
+Ryangotcancer[17:34] - !wordGraph
+Ryangotcancer[17:35] - !wordGraph
+Ryangotcancer[17:36] - !wordGraph
+Ryangotcancer[17:40] - !wordGraph
+Ryangotcancer[17:41] - !wordGraph
+Ryangotcancer[17:43] - !wordGraph
+Py Bot[17:43] - 
+Ryangotcancer[17:44] - !wordGraph
+Py Bot[17:44] - 
+Nahin17[17:46] - 
+Py Bot[17:46] - Hi Nahin17, Welcome To Python Project Server!
+Nahin17[17:47] - !help
+Nahin17[17:47] - !load
+Py Bot[17:47] - Dataframe Loaded
+Nahin17[17:48] - !showGraph
+Py Bot[17:48] - Dataframe Needs To Be Cleaned First!
+Nahin17[17:48] - !clean
+Py Bot[17:48] - Dataframe Cleaned
+Nahin17[17:48] - !showGraph
+Py Bot[17:48] - 
+Nahin17[17:48] - !applyRegression
+Py Bot[17:48] - Regression Applied
+Nahin17[17:49] - !showGraph
+Py Bot[17:49] - 
+Ryangotcancer[17:49] - !reader
+Py Bot[17:49] - Read Mode Turned On
+Ryangotcancer[17:49] - !chat
+Py Bot[17:49] - Chat Mode Turned On
+Nahin17[17:49] - hello
+Py Bot[17:49] - Hello Nahin17
+Nahin17[17:50] - hi
+Py Bot[17:50] - Hi Nahin
+Ryangotcancer[17:50] - !chat
+Py Bot[17:50] - Chat Mode Turned Off
+Ryangotcancer[17:50] - Nahin ki obostha tor
+Nahin17[17:50] - how are you ariyan?
+Ryangotcancer[17:50] - I am fine
+Ryangotcancer[17:50] - what about you
+Ryangotcancer[17:51] - !wordGraph
+Py Bot[17:51] - 
+Ryangotcancer[17:51] - hi
+Ryangotcancer[17:51] - I read in university
+Ryangotcancer[17:51] - you read in school
+Ryangotcancer[17:52] - I am from chittagong
+Ryangotcancer[17:52] - Python
+Ryangotcancer[17:52] - Project
+Ryangotcancer[17:52] - this is a python project
+Ryangotcancer[17:52] - the name of the bot is Py Bot
+Ryangotcancer[17:52] - This bot is still in progress
+Ryangotcancer[17:52] - Hello everyone
+Ryangotcancer[17:52] - how is everyone doing
+Ryangotcancer[17:53] - it is a sunny day
+Ryangotcancer[17:53] - but the weather is chilly
+Ryangotcancer[17:53] - pleasant surprise
+Ryangotcancer[17:53] - Tokyo Ghoul
+Ryangotcancer[17:53] - Re Zero
+Ryangotcancer[17:53] - Anime
+Ryangotcancer[17:53] - Games
+Ryangotcancer[17:53] - !wordGraph
+Py Bot[17:53] - 
+Ryangotcancer[17:58] - winston is one of the most laid-back people i know he is tall and slim with black hair and he always wears a t-shirt and black jeans his jeans have holes in them and his baseball boots are scruffy too he usually sits at the back of the class and he often seems to be asleep however when the exam results are given out he always gets an A i don't think hes as lazy as he appears to be
+Ryangotcancer[18:00] - Here is the perfect system for cleaning your room First move all of the items that do not have a proper place to the centre of the room Get rid of at least five things that you have not used within the last year Take out all of the trash and place all of the dirty dishes in the kitchen sink Now find a location for each of the items you had placed in the centre of the room For any remaining items see if you can squeeze them in under your bed or stuff them into the back of your closet See that was easy
+Ryangotcancer[18:01] - Oceans and lakes have much in common but they are also quite different Both are bodies of water but oceans are very large bodies of salt water while lakes are much smaller bodies of fresh water Lakes are usually surrounded by land while oceans are what surround continents Both have plants and animals living in them The ocean is home to the largest animals on the planet whereas lakes support much smaller forms of life When it is time for a vacation both will make a great place to visit and enjoy
+Ryangotcancer[18:02] - The Blue Whales just played their first baseball game of the new season I believe there is much to be excited about Although they lost it was against an excellent team that had won the championship last year The Blue Whales fell behind early but showed excellent teamwork and came back to tie the game The team had 15 hits and scored 8 runs That's excellent Unfortunately they had 5 fielding errors which kept the other team in the lead the entire game The game ended with the umpire making a bad call and if the call had gone the other way the Blue Whales might have actually won the game It wasn't a victory but I say the Blue Whales look like they have a shot at the championship especially if they continue to improve
+Ryangotcancer[18:02] - !wordGraph
+Py Bot[18:02] - 
+Ryangotcancer[18:03] - Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello
+Ryangotcancer[18:03] - !wordGraph
+Py Bot[18:03] - 
+Ryangotcancer[18:05] - if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if if
+Ryangotcancer[18:05] - !wordGraph
+Py Bot[18:05] - 
+Ryangotcancer[18:05] - of of of of of of of of of of
+Ryangotcancer[18:05] - Good Morning Good Morning Good Morning Good Morning Good Morning 
+Good Evening Good Evening Good Evening Good Evening Good Evening 
+Good Night Good Night Good Night Good Night Good Night Good Night
+Ryangotcancer[18:06] - !wordGraph
+Py Bot[18:06] - 
+Ryangotcancer[18:06] - winston is one of the most laid-back people i know he is tall and slim with black hair and he always wears a t-shirt and black jeans his jeans have holes in them and his baseball boots are scruffy too he usually sits at the back of the class and he often seems to be asleep however when the exam results are given out he always gets an A i don't think hes as lazy as he appears to be
+Here is the perfect system for cleaning your room First move all of the items that do not have a proper place to the centre of the room Get rid of at least five things that you have not used within the last year Take out all of the trash and place all of the dirty dishes in the kitchen sink Now find a location for each of the items you had placed in the centre of the room For any remaining items see if you can squeeze them in under your bed or stuff them into the back of your closet See that was easy
+Oceans and lakes have much in common but they are also quite different Both are bodies of water but oceans are very large bodies of salt water while lakes are much smaller bodies of fresh water Lakes are usually surrounded by land while oceans are what surround continents Both have plants and animals living in them The ocean is home to the largest animals on the planet whereas lakes support much smaller forms of life When it is time for a vacation both will make a great place to visit and enjoy
+Ryangotcancer[18:06] - !wordGraph
+Py Bot[18:06] - 
+Ryangotcancer[18:13] - !reader
+Py Bot[18:13] - Read Mode Turned On
+Ryangotcancer[18:13] - Forty one years ago on Planet Vegeta home of the infamous Saiyan warrior race King Vegeta noticed a baby named Broly whose latent power exceeded that of his own son Believing that Brolys power would one day surpass that of his child Vegeta the king sends Broly to the desolate planet Vampa Brolys father Paragus follows after him intent on rescuing his son However his ship gets damaged causing the two to spend years trapped on the barren world unaware of the salvation that would one day come from an unlikely ally
+
+Years later on Earth Gokuu Son and Prince Vegeta believed to be the last survivors of the Saiyan race are busy training on a remote island But their sparring is interrupted when the appearance of their old enemy Frieza drives them to search for the last of the wish granting Dragon Balls on a frozen continent Once there Frieza shows off his new allies Paragus and the now extremely powerful Broly A legendary battle that shakes the foundation of the world ensues as Goku and Vegeta face off against Broly a warrior without equal whose rage is just waiting to be unleashed
+Ryangotcancer[18:16] - When Subaru Natsuki leaves the convenience store the last thing he expects is to be wrenched from his everyday life and dropped into a fantasy world Things arent looking good for the bewildered teenager however not long after his arrival he is attacked by some thugs Armed with only a bag of groceries and a now useless cell phone he is quickly beaten to a pulp Fortunately a mysterious beauty named Satella in hot pursuit after the one who stole her insignia happens upon Subaru and saves him In order to thank the honest and kindhearted girl Subaru offers to help in her search and later that night he even finds the whereabouts of that which she seeks But unbeknownst to them a much darker force stalks the pair from the shadows and just minutes after locating the insignia Subaru and Satella are brutally murdered
+
+However Subaru immediately re awakens to a familiar scene confronted by the same group of thugs meeting Satella all over again the enigma deepens as history inexplicably repeats itself
+Ryangotcancer[18:16] - !wordGraph
+Py Bot[18:16] - 
