@@ -3,6 +3,7 @@
 import os, random, discord, math, tabulate
 import pandas as pd 
 import numpy as np 
+import dataframe_image as dfi
 import matplotlib.pyplot as plt
 from sklearn import linear_model
 from word2number import w2n
@@ -176,8 +177,10 @@ async def df_regression(ctx):
 async def df_show_dataframe(ctx):
     global frame, frame_flag
     if frame_flag:
-        response = frame.to_markdown(tablefmt="grid")
-        await ctx.send(response)
+        # frame_image = frame.style.background_gradient()
+        image = discord.File("dataframe.png")
+        dfi.export(frame,"dataframe.png")
+        await ctx.send(file=image)
     else:
         response = "No Dataframe Loaded"
         await ctx.send(response)
