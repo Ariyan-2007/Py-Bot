@@ -1,6 +1,6 @@
 # bot.py
 
-import os, random, discord, math, tabulate
+import os, random, discord, math
 import pandas as pd 
 import numpy as np 
 import dataframe_image as dfi
@@ -178,9 +178,14 @@ async def df_show_dataframe(ctx):
     global frame, frame_flag
     if frame_flag:
         # frame_image = frame.style.background_gradient()
+        frame_short = frame.head(11)
         image = discord.File("dataframe.png")
-        dfi.export(frame,"dataframe.png")
+        data = discord.File("dataframe.csv")
+        dfi.export(frame_short,"dataframe.png")
+        frame.to_csv('dataframe.csv',mode='w',index=False)
         await ctx.send(file=image)
+        await ctx.send(file=data)
+        
     else:
         response = "No Dataframe Loaded"
         await ctx.send(response)
@@ -200,7 +205,8 @@ async def df_show_graph(ctx):
                 plt.scatter(n,frame.experience,color='blue',marker='+')
             plt.savefig("hiring.png")
             plt.close()
-            await ctx.send(file=image)            
+            await ctx.send(file=image)    
+            
         else:
             response = "Dataframe Needs To Be Cleaned First!"
             await ctx.send(response)
