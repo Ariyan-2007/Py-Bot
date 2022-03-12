@@ -1,6 +1,11 @@
 # bot.py
 
-import os, random, discord, pandas as pd, numpy as np, matplotlib.pyplot as plt
+import os, random, discord, math, tabulate
+import pandas as pd 
+import numpy as np 
+import matplotlib.pyplot as plt
+from sklearn import linear_model
+from word2number import w2n
 from datetime import datetime
 from discord.ext import commands
 from dotenv import load_dotenv
@@ -11,6 +16,13 @@ word_counter = [''][0]
 toggle_c : bool = False
 toggle_r : bool = False
 text_log : str = ""
+frame = []
+frame_flag = False
+m = None
+n = []
+reg = None
+reg_flag = False
+cleaning = False
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -72,7 +84,7 @@ async def member_list(ctx):
     response = f'Server Members:\n - {members}'
     await ctx.send(response)
 
-@bot.command(name = 'plotWords', help="- Shows Server's Used Words Graph")
+@bot.command(name = 'wordGraph', help="- Shows Server's Used Words Graph")
 async def plot_graph(ctx):
     df = pd.read_csv('words.csv')
     x = df['Word'].values
@@ -88,6 +100,110 @@ async def plot_graph(ctx):
     plt.savefig("words.png")
     plt.close()
     await ctx.send(file=image)
+
+
+@bot.command(name = 'load', help="- Loads Dataframe")
+async def df_loader(ctx):
+    global frame, cleaning, frame_flag
+    frame = pd.read_csv('hiring.csv')
+    response = "Dataframe Loaded"
+    cleaning = False
+    frame_flag = True
+    await ctx.send(response)
+
+@bot.command(name = 'unload', help="- Unloads Dataframe")
+async def df_unloader(ctx):
+    global frame, cleaning, reg, m, n, frame_flag, reg_flag
+    if frame_flag:
+        frame = []
+        reg = None
+        m = None
+        n = []
+        response = "Dataframe Unloaded"
+        cleaning = False
+        reg_flag = False
+        frame_flag = False
+        await ctx.send(response)
+    else:
+        response = "No Dataframe Loaded"
+        await ctx.send(response)
+
+@bot.command(name = 'clean', help="- Cleans Dataframe")
+async def df_cleaner(ctx):
+    global frame, cleaning, frame_flag
+    if frame_flag:
+        frame.rename(columns={"salary($)":'salary'},inplace=True)
+        frame.rename(columns={"test_score(out of 10)":'test_score'},inplace=True)
+        frame.rename(columns={"interview_score(out of 10)":'interview_score'},inplace=True)
+        frame.experience = frame.experience.fillna("zero")
+        frame.experience = frame.experience.apply(w2n.word_to_num)
+        median_experience = math.floor(frame['experience'].mean())
+        frame.loc[frame.experience == 0, 'experience'] = median_experience
+        median_t_score = math.floor(frame['test_score'].mean())
+        frame['test_score'] = frame['test_score'].fillna(median_t_score)
+        median_i_score = math.floor(frame['interview_score'].mean())
+        frame['interview_score'] = frame['interview_score'].fillna(median_i_score)
+        response = "Dataframe Cleaned"
+        cleaning = True
+        await ctx.send(response)
+    else:
+        response = "No Dataframe Loaded"
+        await ctx.send(response)
+
+@bot.command(name = 'applyRegression', help='- Applies Regression On Dataframe')
+async def df_regression(ctx):
+    global frame, m, n, reg, cleaning, frame_flag, reg_flag
+    if frame_flag:
+        if cleaning:
+            reg = linear_model.LinearRegression()
+            reg.fit(frame[['experience','test_score','interview_score']],frame['salary'])
+            n = []
+            for i in range(50):
+                m = reg.predict([[random.randint(1, 15),random.randint(5, 10),random.randint(5,10)]])
+                n = np.append(n,m)
+            response = "Regression Applied"
+            reg_flag = True
+            await ctx.send(response)
+        else:
+            response = "Regression Cannot Be Applied On Unclean Dataframe"
+            await ctx.send(response)
+    else:
+        response = "No Dataframe Loaded"
+        await ctx.send(response)
+
+@bot.command(name = 'showDF', help='- Shows Dataframe')
+async def df_show_dataframe(ctx):
+    global frame, frame_flag
+    if frame_flag:
+        response = frame.to_markdown(tablefmt="grid")
+        await ctx.send(response)
+    else:
+        response = "No Dataframe Loaded"
+        await ctx.send(response)
+
+@bot.command(name = 'showGraph', help='- Shows Dataframe as Graph')
+async def df_show_graph(ctx):
+    global frame, n, cleaning, frame_flag, reg_flag
+    if frame_flag:
+        
+        if cleaning:
+            # %matplotlib inline
+            plt.xlabel('Salary')
+            plt.ylabel('Experience')
+            image = discord.File("hiring.png")
+            plt.scatter(frame.salary,frame.experience,color='red',marker='.')
+            if reg_flag:
+                plt.scatter(n,frame.experience,color='blue',marker='+')
+            plt.savefig("hiring.png")
+            plt.close()
+            await ctx.send(file=image)            
+        else:
+            response = "Dataframe Needs To Be Cleaned First!"
+            await ctx.send(response)
+            
+    else:
+        response = "No Dataframe Loaded To Show Graph"
+        await ctx.send(response)
 
 @bot.event
 async def on_message(message):
@@ -134,9 +250,9 @@ async def on_message(message):
     if toggle_c == True:
         if message.author.nick == None:
             welcome_quotes = [
-                f'Hello {message.author.name}, why are you wandering without a nickname',
-                f'Hi {message.author.name}, where is your nickname?',
-                f"What's Up {message.author.name}! get yourself a nickname"
+                f'Hello {message.author.name}',
+                f'Hi {message.author.name}',
+                f"What's Up {message.author.name}"
             ]
         else:
             welcome_quotes = [
