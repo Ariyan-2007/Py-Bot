@@ -72,3 +72,96 @@ Ryangotcancer[01:03] - !plotWords
 Py Bot[01:03] - 
 Ryangotcancer[01:03] - !plotWords
 Py Bot[01:03] - 
+Ryangotcancer[02:56] - !chat
+Py Bot[02:56] - Chat Mode Turned On
+Ryangotcancer[02:56] - Hello
+Py Bot[02:56] - Hi Ariyan
+Ryangotcancer[02:56] - Hello Bro
+Ryangotcancer[02:56] - !chat
+Py Bot[02:56] - Chat Mode Turned Off
+Ryangotcancer[02:56] - !plotWords
+Py Bot[02:56] - 
+Ryangotcancer[16:22] - !help
+Ryangotcancer[16:23] - !showDF
+Py Bot[16:23] - No Dataframe Loaded
+Ryangotcancer[16:23] - !wordGraph
+Py Bot[16:23] - 
+Ryangotcancer[16:23] - !load
+Ryangotcancer[16:25] - !load
+Py Bot[16:25] - Dataframe Loaded
+Ryangotcancer[16:25] - !showDF
+Ryangotcancer[16:28] - !unload
+Ryangotcancer[16:30] - !unload
+Ryangotcancer[16:30] - !load
+Py Bot[16:30] - Dataframe Loaded
+Ryangotcancer[16:30] - !unload
+Ryangotcancer[16:32] - !load
+Py Bot[16:32] - Dataframe Loaded
+Ryangotcancer[16:32] - !unload
+Ryangotcancer[16:35] - !unload
+Py Bot[16:35] - Dataframe Unloaded
+Ryangotcancer[16:37] - !unload
+Py Bot[16:37] - No Dataframe Loaded
+Ryangotcancer[16:37] - !load
+Py Bot[16:37] - Dataframe Loaded
+Ryangotcancer[16:37] - !unload
+Py Bot[16:37] - Dataframe Unloaded
+Ryangotcancer[16:37] - !load
+Py Bot[16:37] - Dataframe Loaded
+Ryangotcancer[16:37] - !chat
+Py Bot[16:37] - Chat Mode Turned On
+Ryangotcancer[16:37] - !chat
+Py Bot[16:37] - Chat Mode Turned Off
+Ryangotcancer[16:37] - !help
+Ryangotcancer[16:37] - !showDF
+Ryangotcancer[16:38] - !showDF
+Py Bot[16:38] - No Dataframe Loaded
+Ryangotcancer[16:38] - !load
+Py Bot[16:38] - Dataframe Loaded
+Ryangotcancer[16:38] - !showDF
+Ryangotcancer[16:41] - !clean
+Py Bot[16:41] - Dataframe Cleaned
+Ryangotcancer[16:41] - !showGraph
+Py Bot[16:41] - 
+Ryangotcancer[16:41] - !applyRegression
+Py Bot[16:41] - Regression Applied
+Ryangotcancer[16:41] - !showGraph
+Py Bot[16:41] - 
+Ryangotcancer[16:41] - !applyRegression
+Py Bot[16:41] - Regression Applied
+Ryangotcancer[16:41] - !showGraph
+Py Bot[16:41] - 
+Tajwar[16:49] - !unload
+Py Bot[16:49] - Dataframe Unloaded
+Tajwar[16:49] - !showGraph
+Py Bot[16:49] - No Dataframe Loaded To Show Graph
+Tajwar[16:49] - !load
+Py Bot[16:49] - Dataframe Loaded
+Tajwar[16:49] - !showGraph
+Py Bot[16:49] - Dataframe Needs To Be Cleaned First!
+Tajwar[16:49] - !clean
+Py Bot[16:49] - Dataframe Cleaned
+Tajwar[16:49] - !showGraph
+Py Bot[16:49] - 
+Tajwar[16:50] - !applyRegression
+Py Bot[16:50] - Regression Applied
+Tajwar[16:50] - !showGraph
+Py Bot[16:50] - 
+Ryangotcancer[16:55] - !load
+Py Bot[16:55] - Dataframe Loaded
+Ryangotcancer[16:55] - !clean
+Py Bot[16:55] - Dataframe Cleaned
+Ryangotcancer[16:55] - !applyRegression
+Py Bot[16:55] - Regression Applied
+Ryangotcancer[16:56] - !showGraph
+Py Bot[16:56] - 
+Ryangotcancer[17:05] - !load
+Py Bot[17:05] - Dataframe Loaded
+Ryangotcancer[17:05] - !clean
+Py Bot[17:05] - Dataframe Cleaned
+Ryangotcancer[17:05] - !showGraph
+Py Bot[17:05] - 
+Ryangotcancer[17:05] - !applyRegression
+Py Bot[17:05] - Regression Applied
+Ryangotcancer[17:05] - !showGraph
+Py Bot[17:05] - 
