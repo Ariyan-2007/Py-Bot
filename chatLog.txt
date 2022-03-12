@@ -295,3 +295,77 @@ Ryangotcancer[18:16] - When Subaru Natsuki leaves the convenience store the last
 However Subaru immediately re awakens to a familiar scene confronted by the same group of thugs meeting Satella all over again the enigma deepens as history inexplicably repeats itself
 Ryangotcancer[18:16] - !wordGraph
 Py Bot[18:16] - 
+Ryangotcancer[19:08] - !help
+Ryangotcancer[19:09] - !load
+Py Bot[19:09] - Dataframe Loaded
+Ryangotcancer[19:10] - ! clean
+Ryangotcancer[19:10] - !clean
+Py Bot[19:10] - Dataframe Cleaned
+Ryangotcancer[19:10] - !showGraph
+Py Bot[19:10] - 
+Ryangotcancer[19:10] - !applyRegression
+Py Bot[19:10] - Regression Applied
+Ryangotcancer[19:11] - !showGraph
+Py Bot[19:11] - 
+Shahriar[20:05] - 
+Py Bot[20:05] - Hi Shahriar, Welcome To Python Project Server!
+Ryangotcancer[20:05] - !applyRegression
+Py Bot[20:05] - Regression Applied
+Ryangotcancer[20:05] - !showGraph
+Py Bot[20:05] - 
+Ryangotcancer[20:06] - !wordGraph
+Py Bot[20:06] - 
+Ryangotcancer[20:06] - !help
+Ryangotcancer[20:07] - !unload
+Py Bot[20:07] - Dataframe Unloaded
+Ryangotcancer[20:07] - !load
+Py Bot[20:07] - Dataframe Loaded
+Ryangotcancer[20:07] - !showGraph
+Py Bot[20:07] - Dataframe Needs To Be Cleaned First!
+Ryangotcancer[20:08] - !clean
+Py Bot[20:08] - Dataframe Cleaned
+Ryangotcancer[20:08] - !showGraph
+Py Bot[20:08] - 
+Ryangotcancer[20:08] - !applyRegression
+Py Bot[20:08] - Regression Applied
+Ryangotcancer[20:08] - !showGraph
+Py Bot[20:08] - 
+Ryangotcancer[20:15] - !reader
+Py Bot[20:15] - Read Mode Turned On
+Ryangotcancer[20:16] - !reader
+Py Bot[20:16] - Read Mode Turned Off
+Ryangotcancer[20:16] - hello
+Ryangotcancer[20:16] - !chat
+Py Bot[20:16] - Chat Mode Turned On
+Ryangotcancer[20:16] - hello
+Py Bot[20:16] - Hello Ariyan
+Ryangotcancer[20:17] - !chat
+Py Bot[20:17] - Chat Mode Turned Off
+Ryangotcancer[20:17] - !list
+Py Bot[20:17] - Server Members:
+ - Py Bot
+ - Ryangotcancer
+ - Tajwar
+ - Nahin17
+ - jisunaurnob
+ - Hamid
+ - Zafrin
+ - Shahriar
+Ryangotcancer[20:17] - !wordGraph
+Py Bot[20:17] - 
+Ryangotcancer[20:24] - !unload
+Py Bot[20:24] - Dataframe Unloaded
+Ryangotcancer[20:24] - !load
+Py Bot[20:24] - Dataframe Loaded
+Ryangotcancer[20:37] - !load
+Py Bot[20:37] - Dataframe Loaded
+Ryangotcancer[20:37] - !showDF
+Py Bot[20:37] - 
+Ryangotcancer[20:38] - !clean
+Py Bot[20:38] - Dataframe Cleaned
+Ryangotcancer[20:38] - !showDF
+Py Bot[20:38] - 
+Ryangotcancer[20:39] - !load
+Py Bot[20:39] - Dataframe Loaded
+Ryangotcancer[20:40] - !showDF
+Py Bot[20:40] - 
