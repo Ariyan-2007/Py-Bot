@@ -87,14 +87,15 @@ async def member_list(ctx):
 @bot.command(name = 'wordGraph', help="- Shows Server's Used Words Graph")
 async def plot_graph(ctx):
     df = pd.read_csv('words.csv')
-    x = df['Word'].values
-    y = df['Count'].values
+    x = df.sort_values(by='Count',ascending=False)['Word'].head(10).values
+    y = df.sort_values(by='Count',ascending=False)['Count'].head(10).values
     image = discord.File("words.png")
     f = plt.figure()
-    f.set_figwidth(12)
+    f.set_figwidth(10)
     f.set_figheight(10)
-    plt.xlabel('Word Count')
-    plt.ylabel('Words')
+    plt.title("Words Demographic")
+    plt.xlabel('Words')
+    plt.ylabel('Word Count')
     plt.bar(x,y)
     plt.xticks(rotation=90)
     plt.savefig("words.png")
