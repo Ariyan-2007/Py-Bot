@@ -390,3 +390,100 @@ Py Bot[21:27] - Dataframe Cleaned
 Ryangotcancer[21:27] - !showDF
 Py Bot[21:27] - 
 Py Bot[21:27] - 
+Ryangotcancer[19:25] - !load
+Ryangotcancer[19:25] - !load
+Py Bot[19:25] - Dataframe Loaded
+Ryangotcancer[19:34] - !load
+Py Bot[19:34] - Dataframe Loaded
+Ryangotcancer[19:34] - !unload
+Py Bot[19:34] - Dataframe Unloaded
+Ryangotcancer[19:34] - !unload
+Py Bot[19:34] - No Dataframe loaded
+Ryangotcancer[19:42] - !load
+Py Bot[19:42] - Dataframe Loaded
+Ryangotcancer[19:42] - !unload
+Py Bot[19:42] - Dataframe Unloaded
+Ryangotcancer[19:42] - !clean
+Py Bot[19:42] - No Dataframe loaded
+Ryangotcancer[19:42] - !load
+Py Bot[19:42] - Dataframe Loaded
+Ryangotcancer[19:42] - !clean
+Py Bot[19:42] - No Dataframe loaded
+Ryangotcancer[19:43] - !clean
+Py Bot[19:43] - No Dataframe loaded
+Ryangotcancer[19:43] - !load
+Py Bot[19:43] - Dataframe Loaded
+Ryangotcancer[19:43] - !clean
+Py Bot[19:43] - No Dataframe loaded
+Ryangotcancer[19:44] - !load
+Py Bot[19:44] - Dataframe Loaded
+Ryangotcancer[19:44] - !clean
+Py Bot[19:44] - Dataframe Cleaned
+Ryangotcancer[19:45] - !unload
+Py Bot[19:45] - Dataframe Unloaded
+Ryangotcancer[16:17] - !help
+Ryangotcancer[16:17] - !load
+Py Bot[16:17] - Dataframe Loaded
+Ryangotcancer[16:17] - !show
+Ryangotcancer[16:17] - !showDF
+Py Bot[16:17] - <discord.file.File object at 0x000001F0FC531FD0>
+Py Bot[16:17] - <discord.file.File object at 0x000001F0FC531DA0>
+Ryangotcancer[16:18] - !load
+Py Bot[16:18] - Dataframe Loaded
+Ryangotcancer[16:18] - !showDF
+Py Bot[16:18] - 
+Py Bot[16:18] - 
+Ryangotcancer[16:18] - !clean
+Py Bot[16:18] - Dataframe Cleaned
+Ryangotcancer[16:18] - !showDF
+Py Bot[16:18] - 
+Py Bot[16:18] - 
+Ryangotcancer[16:58] - !load
+Py Bot[16:58] - Dataframe Loaded
+Ryangotcancer[16:58] - !showGraph
+Py Bot[16:58] - Dataframe Needs To Be Cleaned First!
+Ryangotcancer[16:58] - !clean
+Py Bot[16:58] - Dataframe Cleaned
+Ryangotcancer[16:58] - !showGraph
+Py Bot[16:58] - 
+Ryangotcancer[17:06] - !load
+Py Bot[17:06] - Dataframe Loaded
+Ryangotcancer[17:07] - !applyRegression
+Py Bot[17:07] - Regression Cannot Be Applied On Unclean Dataframe
+Ryangotcancer[17:07] - !clean
+Py Bot[17:07] - Dataframe Cleaned
+Ryangotcancer[17:07] - !showDF
+Ryangotcancer[17:07] - !showFrame
+Py Bot[17:07] - 
+Py Bot[17:07] - 
+Ryangotcancer[17:07] - !showGraph
+Py Bot[17:07] - 
+Ryangotcancer[17:07] - !applyRegression
+Py Bot[17:07] - Regression Cannot Be Applied On Unclean Dataframe
+Ryangotcancer[17:10] - !load
+Py Bot[17:10] - Dataframe Loaded
+Ryangotcancer[17:10] - !clean
+Py Bot[17:10] - Dataframe Cleaned
+Ryangotcancer[17:10] - !showGraph
+Py Bot[17:10] - 
+Ryangotcancer[17:10] - !showDF
+Ryangotcancer[17:10] - !showFrame
+Py Bot[17:10] - 
+Py Bot[17:10] - 
+Ryangotcancer[17:10] - !applyRegression
+Py Bot[17:10] - Regression Applied
+Ryangotcancer[17:10] - !showGraph
+Ryangotcancer[17:12] - !load
+Py Bot[17:12] - Dataframe Loaded
+Ryangotcancer[17:12] - !applyRegression
+Py Bot[17:12] - Regression Cannot Be Applied On Unclean Dataframe
+Ryangotcancer[17:12] - !clean
+Py Bot[17:12] - Dataframe Cleaned
+Ryangotcancer[17:12] - !applyRegression
+Py Bot[17:12] - Regression Applied
+Ryangotcancer[17:12] - !showGraph
+Py Bot[17:12] - 
+Ryangotcancer[17:12] - !applyRegression
+Py Bot[17:12] - Regression Applied
+Ryangotcancer[17:12] - !showGraph
+Py Bot[17:12] - 
